@@ -9,6 +9,22 @@ body{
     background-color: #273043;
     color: #ECE5F0;   
 }
+.cabecalho{
+    padding: 2% 0% 0% 11%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 60px;
+}
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#273043;
+    background-color: #ECE5F0;
+    border-radius: 20px;
+    padding: 1%;
+    text-decoration: none;
+}
 .destaque{
     color: #FFC53A;
 }
@@ -69,7 +85,7 @@ body{
     border: 2px solid #8ea7ff
 }
 .rodape{
-    color: #fff6a6;
+    color: #273043;
     padding: 10px;
     background-color: #FFC53A;
     text-align: center;
